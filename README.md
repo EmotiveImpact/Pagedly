@@ -3,6 +3,8 @@
 **A Word-style paged rich-text editor for React.**
 Multi-page layout that reflows like Microsoft Word — page boundaries appear as you type, content flows onto the next page, and the printed output matches the editing view.
 
+![Pagedly editor with a sample letter](./screenshot.png)
+
 ---
 
 ## What it does
