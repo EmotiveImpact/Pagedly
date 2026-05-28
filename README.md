@@ -9,9 +9,11 @@ Multi-page layout that reflows like Microsoft Word — page boundaries appear as
 
 ## What it does
 
-Most rich-text editors give you a continuous scroll. Pagedly gives you **real pages**:
+Most rich-text editors give you a continuous scroll. Tools that *look* paginated usually draw page-break lines on top of that scroll — the breaks are decorative, and the real page layout only happens later, in a separate export step. Pagedly is different: **you type directly onto the real, reflowing page.** The thing on screen is the page, not a guide layer floating above a different document.
 
-- Word-level reflow at page boundaries — type past the bottom of a page and the words slide onto the next sheet, mid-paragraph, mid-sentence.
+Pagedly gives you **real pages**:
+
+- Word-level reflow at page boundaries — type past the bottom of a page and the words slide onto the next sheet, mid-paragraph, mid-sentence. The caret stays with your text across the reflow.
 - The edit surface looks like the print surface. What you see on screen is what comes out of the printer.
 - Print to A4 (or save to PDF via the browser print dialog) with letterhead, signature, and attachment chrome injected at print time.
 - In-document find / replace with all matches highlighted at once.
